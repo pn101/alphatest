@@ -20,6 +20,6 @@ from alpha.views import home, mypage
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', home),
+    url(r'^home/$', home, name="home"),
     url(r'^(?P<name>\w+)/$', mypage),
 ]
