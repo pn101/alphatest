@@ -21,5 +21,5 @@ from alpha.views import *
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^home/$', home, name="home"),
-    url(r'^(?P<name>\w+)/$', mypage),
+    url(r'^aboutus/$', aboutus, name="aboutus"),
 ]
