@@ -26,5 +26,5 @@ urlpatterns = [
         url(r'^aboutus/$', aboutus, name="aboutus"),
         url(r'^termsandconditions/$', terms, name="terms"),
         url(r'^policy/$', policy, name="policy"),
-    ])),
+    ], namespace="legal")),
 ]
