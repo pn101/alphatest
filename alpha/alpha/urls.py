@@ -21,7 +21,7 @@ from alpha.views import *
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^home/$', home, name="home"),
-    url(r'^aboutus/$', aboutus, name="aboutus"),
-    url(r'^termsandconditions/$', terms, name="terms"),
-    url(r'^policy/$', policy, name="policy"),
+    url(r'^legal/aboutus/$', aboutus, name="aboutus"),
+    url(r'^legal/termsandconditions/$', terms, name="terms"),
+    url(r'^legal/policy/$', policy, name="policy"),
 ]
