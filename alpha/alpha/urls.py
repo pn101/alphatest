@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from alpha.controller import home, mypage
+from alpha.views import home, mypage
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
