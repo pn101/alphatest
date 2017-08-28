@@ -16,11 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from django.http.response import HttpResponse
-
-
-def home(request):
-    return HttpResponse("Hello World")
+from alpha.controller import home
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
