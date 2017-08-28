@@ -1,5 +1,11 @@
-{% include "header.html" %}
+{% extends "base.html" %}
 
-<p>Hello World</p>
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<h1>Home</h1>
+    <p>This is {{ site_name }}</p>
+{% endblock %}
 
 {{ site_name }}
